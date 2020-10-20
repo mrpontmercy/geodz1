@@ -18,7 +18,6 @@ S = 35000
 
 
 def print_dms(func):
-    '''Выводит значения float в градусах, минутах, секундах'''
     def wrapper(*args, **kwargs):
         res = func(*args, **kwargs)
         if isinstance(res, tuple):
